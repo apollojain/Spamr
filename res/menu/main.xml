@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sendsmstest.MainActivity" >
+
+    <item android:id="@+id/action_home" 
+      android:icon="@drawable/home"
+      android:title="Home" 
+      android:showAsAction="ifRoom|withText">
+   </item>
+   
+    <item android:id="@+id/action_sms" 
+      android:icon="@drawable/sms"
+      android:title="SMS" 
+      android:showAsAction="ifRoom|withText">
+   </item>
+   
+    <item android:id="@+id/action_call" 
+      android:icon="@drawable/call"
+      android:title="Call" 
+      android:showAsAction="ifRoom|withText">
+   </item>
+
+</menu>
